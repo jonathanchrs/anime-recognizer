@@ -1,0 +1,44 @@
+body{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+}
+
+.content h1{
+    font-family: 'Gang of Three';
+    color: #fff;
+}
+
+.content img{
+    width: 70%;
+}
+
+.content .image{
+    text-align: center;
+}
+
+.content .navigation{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.content .navigation a{
+    font-family: 'Gang of Three';
+    background: #957fef;
+    border: none;
+    width: 48%;
+}
+
+.content .navigation .img{
+    margin-left: .5em;
+}
+
+.content .navigation .url:hover{
+    background: #7161ef;
+}
+
+.content .navigation .img:hover{
+    background: #7161ef;
+}
